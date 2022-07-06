@@ -16,7 +16,7 @@ export default function Header() {
         <h1>ntf</h1>
         <span>Portfolio</span>
       </div>
-      <h2>nn team</h2>
+      <h2>nnteam</h2>
     </header>
   );
 }
