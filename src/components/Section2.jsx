@@ -16,15 +16,17 @@ export default function Section2() {
         setActive(true);
       }
     }
+
     scrollAnimation();
     window.addEventListener("scroll", scrollAnimation);
   }, []);
+
   return (
     <div className={`section2 ${active && "active"}`} id="Section2">
       <div className="text-content">
         <div className="text text1">
           <h1>
-            How i <span>Started</span>
+            How I <span>Started</span>
           </h1>
           <h2>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex rerum
@@ -50,12 +52,12 @@ export default function Section2() {
 
         <div className="container" style={{ "--x": 2 }}>
           <h1>2</h1>
-          <span>Lorem</span>
+          <span>Ipsum</span>
         </div>
 
         <div className="container" style={{ "--x": 3 }}>
           <h1>3</h1>
-          <span>Lorem</span>
+          <span>Dolor</span>
         </div>
       </div>
     </div>
